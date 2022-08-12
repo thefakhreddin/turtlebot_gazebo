@@ -1,0 +1,8 @@
+prefix=/home/thefakhreddin/turtlebot_gazebo/devel
+
+Name: bmapping
+Description: Description of bmapping
+Version: 0.0.1
+Cflags: -I/home/thefakhreddin/turtlebot_gazebo/src/turtle-nav-stack/bmapping/include
+Libs: -L${prefix}/lib -lbmapping
+Requires: gazebo_ros geometry_msgs nav_msgs roscpp sensor_msgs tf2 tf2_ros

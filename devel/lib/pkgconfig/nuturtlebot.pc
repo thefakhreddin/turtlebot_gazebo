@@ -1,0 +1,8 @@
+prefix=/home/thefakhreddin/turtlebot_gazebo/devel
+
+Name: nuturtlebot
+Description: Description of nuturtlebot
+Version: 0.0.1
+Cflags: -I/home/thefakhreddin/turtlebot_gazebo/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/thefakhreddin/turtlebot_gazebo/devel
+
+Name: planner
+Description: Description of planner
+Version: 0.0.1
+Cflags: -I/home/thefakhreddin/turtlebot_gazebo/src/turtle-nav-stack/planner/include
+Libs: -L${prefix}/lib -lplanner
+Requires: geometry_msgs nav_msgs roscpp visualization_msgs

@@ -1,0 +1,8 @@
+prefix=/home/thefakhreddin/turtlebot_gazebo/install
+
+Name: nuturtle_gazebo
+Description: Description of nuturtle_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: gazebo_ros roscpp

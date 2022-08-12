@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thefakhreddin/turtlebot_gazebo/src/turtle-nav-stack/rigid2d/include/rigid2d/diff_drive.hpp
+cmath
+-
+iosfwd
+-
+rigid2d/rigid2d.hpp
+/home/thefakhreddin/turtlebot_gazebo/src/turtle-nav-stack/rigid2d/include/rigid2d/rigid2d/rigid2d.hpp
+
+/home/thefakhreddin/turtlebot_gazebo/src/turtle-nav-stack/rigid2d/include/rigid2d/rigid2d.hpp
+cmath
+-
+iosfwd
+-
+
+/home/thefakhreddin/turtlebot_gazebo/src/turtle-nav-stack/rigid2d/src/rigid2d_node.cpp
+iostream
+-
+sstream
+-
+rigid2d/rigid2d.hpp
+/home/thefakhreddin/turtlebot_gazebo/src/turtle-nav-stack/rigid2d/src/rigid2d/rigid2d.hpp
+rigid2d/diff_drive.hpp
+/home/thefakhreddin/turtlebot_gazebo/src/turtle-nav-stack/rigid2d/src/rigid2d/diff_drive.hpp
+

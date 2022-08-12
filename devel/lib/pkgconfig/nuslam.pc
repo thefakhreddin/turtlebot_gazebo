@@ -1,0 +1,8 @@
+prefix=/home/thefakhreddin/turtlebot_gazebo/devel
+
+Name: nuslam
+Description: Description of nuslam
+Version: 0.0.1
+Cflags: -I/home/thefakhreddin/turtlebot_gazebo/devel/include -I/home/thefakhreddin/turtlebot_gazebo/src/turtle-nav-stack/nuslam/include
+Libs: -L${prefix}/lib -lnuslam
+Requires: gazebo_ros geometry_msgs message_runtime roscpp sensor_msgs std_msgs tf2 visualization_msgs

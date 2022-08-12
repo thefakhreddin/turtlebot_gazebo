@@ -1,0 +1,8 @@
+prefix=/home/thefakhreddin/turtlebot_gazebo/install
+
+Name: controller
+Description: Description of controller
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lcontroller
+Requires: roscpp

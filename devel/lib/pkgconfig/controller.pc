@@ -1,0 +1,8 @@
+prefix=/home/thefakhreddin/turtlebot_gazebo/devel
+
+Name: controller
+Description: Description of controller
+Version: 0.0.1
+Cflags: -I/home/thefakhreddin/turtlebot_gazebo/src/turtle-nav-stack/controller/include
+Libs: -L${prefix}/lib -lcontroller
+Requires: roscpp

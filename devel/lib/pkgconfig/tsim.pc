@@ -1,0 +1,8 @@
+prefix=/home/thefakhreddin/turtlebot_gazebo/devel
+
+Name: tsim
+Description: Description of tsim
+Version: 0.0.1
+Cflags: -I/home/thefakhreddin/turtlebot_gazebo/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime roscpp std_msgs std_srvs
