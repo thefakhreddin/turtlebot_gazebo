@@ -153,7 +153,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/thefakhreddin/turtlebot_gazebo/build/turtlebot3/turtlebot3_teleop/cmake_install.cmake")
   include("/home/thefakhreddin/turtlebot_gazebo/build/turtle-nav-stack/bmapping/cmake_install.cmake")
   include("/home/thefakhreddin/turtlebot_gazebo/build/turtle-nav-stack/nuslam/cmake_install.cmake")
-  include("/home/thefakhreddin/turtlebot_gazebo/build/deep_mpc/cmake_install.cmake")
+  include("/home/thefakhreddin/turtlebot_gazebo/build/deep_mpc_local_planner/cmake_install.cmake")
   include("/home/thefakhreddin/turtlebot_gazebo/build/mpc_local_planner/mpc_local_planner/cmake_install.cmake")
   include("/home/thefakhreddin/turtlebot_gazebo/build/turtlebot3/turtlebot3_description/cmake_install.cmake")
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(deep_mpc)
+project(deep_mpc_local_planner)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -114,7 +114,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
  INCLUDE_DIRS include
- LIBRARIES deep_mpc
+ LIBRARIES deep_mpc_local_planner
  CATKIN_DEPENDS roscpp rospy dynamic_reconfigure
 #  DEPENDS system_lib
 )
@@ -126,12 +126,12 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+ include
   ${catkin_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
-add_library(deep_mpc
+add_library(deep_mpc_local_planner
 src/deep_mpc_planner.cpp
 )
 

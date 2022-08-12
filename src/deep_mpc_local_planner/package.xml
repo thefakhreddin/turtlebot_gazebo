@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>deep_mpc</name>
+  <name>deep_mpc_local_planner</name>
   <version>0.0.0</version>
-  <description>The deep_mpc package</description>
+  <description>The deep_mpc_local_planner package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

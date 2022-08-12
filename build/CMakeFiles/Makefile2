@@ -76,7 +76,7 @@ all: turtlebot3/turtlebot3_slam/all
 all: turtlebot3/turtlebot3_teleop/all
 all: turtle-nav-stack/bmapping/all
 all: turtle-nav-stack/nuslam/all
-all: deep_mpc/all
+all: deep_mpc_local_planner/all
 all: mpc_local_planner/mpc_local_planner/all
 all: turtlebot3/turtlebot3_description/all
 
@@ -106,7 +106,7 @@ preinstall: turtlebot3/turtlebot3_slam/preinstall
 preinstall: turtlebot3/turtlebot3_teleop/preinstall
 preinstall: turtle-nav-stack/bmapping/preinstall
 preinstall: turtle-nav-stack/nuslam/preinstall
-preinstall: deep_mpc/preinstall
+preinstall: deep_mpc_local_planner/preinstall
 preinstall: mpc_local_planner/mpc_local_planner/preinstall
 preinstall: turtlebot3/turtlebot3_description/preinstall
 
@@ -141,46 +141,46 @@ clean: turtlebot3/turtlebot3_slam/clean
 clean: turtlebot3/turtlebot3_teleop/clean
 clean: turtle-nav-stack/bmapping/clean
 clean: turtle-nav-stack/nuslam/clean
-clean: deep_mpc/clean
+clean: deep_mpc_local_planner/clean
 clean: mpc_local_planner/mpc_local_planner/clean
 clean: turtlebot3/turtlebot3_description/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory deep_mpc
+# Directory level rules for directory deep_mpc_local_planner
 
 # Recursive "all" directory target.
-deep_mpc/all: deep_mpc/CMakeFiles/deep_mpc.dir/all
+deep_mpc_local_planner/all: deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/all
 
-.PHONY : deep_mpc/all
+.PHONY : deep_mpc_local_planner/all
 
 # Recursive "preinstall" directory target.
-deep_mpc/preinstall:
+deep_mpc_local_planner/preinstall:
 
-.PHONY : deep_mpc/preinstall
+.PHONY : deep_mpc_local_planner/preinstall
 
 # Recursive "clean" directory target.
-deep_mpc/clean: deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/deep_mpc.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/clean
-deep_mpc/clean: deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/clean
+deep_mpc_local_planner/clean: deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/clean
 
-.PHONY : deep_mpc/clean
+.PHONY : deep_mpc_local_planner/clean
 
 #=============================================================================
 # Directory level rules for directory gtest
@@ -9636,490 +9636,490 @@ turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam_gtest_nuslam_test.dir/clean
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam_gtest_nuslam_test.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/base_local_planner_gencfg.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/build.make deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/build.make deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target base_local_planner_gencfg"
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/all
+deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build.make deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build.make deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=5 "Built target deep_mpc_local_planner"
+.PHONY : deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/rule
 
 # Convenience name for target.
-base_local_planner_gencfg: deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/rule
+deep_mpc_local_planner: deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/rule
+
+.PHONY : deep_mpc_local_planner
+
+# clean rule for target.
+deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build.make deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/clean
+
+#=============================================================================
+# Target rules for target deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir
+
+# All Build rule for target.
+deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target base_local_planner_gencfg"
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/all
+
+# Build rule for subdir invocation for target.
+deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/rule
+
+# Convenience name for target.
+base_local_planner_gencfg: deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/rule
 
 .PHONY : base_local_planner_gencfg
 
 # clean rule for target.
-deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/build.make deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/clean
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/clean
+deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/build
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target base_local_planner_generate_messages_py"
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/rule
 
 # Convenience name for target.
-base_local_planner_generate_messages_py: deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/rule
+base_local_planner_generate_messages_py: deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/rule
 
 .PHONY : base_local_planner_generate_messages_py
 
 # clean rule for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/clean
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/clean
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target base_local_planner_generate_messages_nodejs"
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-base_local_planner_generate_messages_nodejs: deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/rule
+base_local_planner_generate_messages_nodejs: deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/rule
 
 .PHONY : base_local_planner_generate_messages_nodejs
 
 # clean rule for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/clean
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/clean
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target base_local_planner_generate_messages_lisp"
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-base_local_planner_generate_messages_lisp: deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/rule
+base_local_planner_generate_messages_lisp: deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/rule
 
 .PHONY : base_local_planner_generate_messages_lisp
 
 # clean rule for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/clean
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/clean
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target costmap_2d_generate_messages_cpp"
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-costmap_2d_generate_messages_cpp: deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/rule
+costmap_2d_generate_messages_cpp: deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/rule
 
 .PHONY : costmap_2d_generate_messages_cpp
 
 # clean rule for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/clean
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/clean
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target costmap_2d_generate_messages_lisp"
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-costmap_2d_generate_messages_lisp: deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/rule
+costmap_2d_generate_messages_lisp: deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/rule
 
 .PHONY : costmap_2d_generate_messages_lisp
 
 # clean rule for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/clean
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/clean
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_cpp"
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-map_msgs_generate_messages_cpp: deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
+map_msgs_generate_messages_cpp: deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : map_msgs_generate_messages_cpp
 
 # clean rule for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/clean
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/clean
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/build
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target costmap_2d_generate_messages_eus"
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-costmap_2d_generate_messages_eus: deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/rule
+costmap_2d_generate_messages_eus: deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/rule
 
 .PHONY : costmap_2d_generate_messages_eus
 
 # clean rule for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/clean
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/clean
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target costmap_2d_generate_messages_nodejs"
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-costmap_2d_generate_messages_nodejs: deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/rule
+costmap_2d_generate_messages_nodejs: deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/rule
 
 .PHONY : costmap_2d_generate_messages_nodejs
 
 # clean rule for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/clean
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/clean
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/build
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target costmap_2d_generate_messages_py"
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/rule
 
 # Convenience name for target.
-costmap_2d_generate_messages_py: deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/rule
+costmap_2d_generate_messages_py: deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/rule
 
 .PHONY : costmap_2d_generate_messages_py
 
 # clean rule for target.
-deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/clean
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/clean
+deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/build
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_eus"
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-map_msgs_generate_messages_eus: deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
+map_msgs_generate_messages_eus: deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
 
 .PHONY : map_msgs_generate_messages_eus
 
 # clean rule for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/clean
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/clean
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_lisp"
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-map_msgs_generate_messages_lisp: deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
+map_msgs_generate_messages_lisp: deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : map_msgs_generate_messages_lisp
 
 # clean rule for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/clean
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/clean
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/build
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_py"
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-map_msgs_generate_messages_py: deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/rule
+map_msgs_generate_messages_py: deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/rule
 
 .PHONY : map_msgs_generate_messages_py
 
 # clean rule for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/clean
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/clean
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/costmap_2d_gencfg.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/build.make deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/build.make deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/build
+deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target costmap_2d_gencfg"
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/rule
 
 # Convenience name for target.
-costmap_2d_gencfg: deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/rule
+costmap_2d_gencfg: deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/rule
 
 .PHONY : costmap_2d_gencfg
 
 # clean rule for target.
-deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/build.make deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/clean
-.PHONY : deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/clean
+deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_nodejs"
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-map_msgs_generate_messages_nodejs: deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
+map_msgs_generate_messages_nodejs: deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : map_msgs_generate_messages_nodejs
 
 # clean rule for target.
-deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/clean
-.PHONY : deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/clean
+deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/deep_mpc.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/deep_mpc.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/deep_mpc.dir/build.make deep_mpc/CMakeFiles/deep_mpc.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/deep_mpc.dir/build.make deep_mpc/CMakeFiles/deep_mpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=5 "Built target deep_mpc"
-.PHONY : deep_mpc/CMakeFiles/deep_mpc.dir/all
-
-# Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/deep_mpc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/deep_mpc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/deep_mpc.dir/rule
-
-# Convenience name for target.
-deep_mpc: deep_mpc/CMakeFiles/deep_mpc.dir/rule
-
-.PHONY : deep_mpc
-
-# clean rule for target.
-deep_mpc/CMakeFiles/deep_mpc.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/deep_mpc.dir/build.make deep_mpc/CMakeFiles/deep_mpc.dir/clean
-.PHONY : deep_mpc/CMakeFiles/deep_mpc.dir/clean
-
-#=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir
-
-# All Build rule for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target base_local_planner_generate_messages_cpp"
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-base_local_planner_generate_messages_cpp: deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/rule
+base_local_planner_generate_messages_cpp: deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/rule
 
 .PHONY : base_local_planner_generate_messages_cpp
 
 # clean rule for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/clean
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/clean
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/clean
 
 #=============================================================================
-# Target rules for target deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir
+# Target rules for target deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir
 
 # All Build rule for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/all:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/depend
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/build
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/all:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/depend
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target base_local_planner_generate_messages_eus"
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/all
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/rule: cmake_check_build_system
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/rule
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-base_local_planner_generate_messages_eus: deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/rule
+base_local_planner_generate_messages_eus: deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/rule
 
 .PHONY : base_local_planner_generate_messages_eus
 
 # clean rule for target.
-deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/clean:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/clean
-.PHONY : deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/clean
+deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/clean:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/clean
+.PHONY : deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/clean
 
 #=============================================================================
 # Target rules for target mpc_local_planner/mpc_local_planner/CMakeFiles/test_mpc_optim_node.dir

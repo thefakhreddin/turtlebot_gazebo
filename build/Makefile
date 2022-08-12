@@ -3418,6 +3418,19 @@ _run_tests_nuslam_gtest_nuslam_test/fast:
 .PHONY : _run_tests_nuslam_gtest_nuslam_test/fast
 
 #=============================================================================
+# Target rules for targets named deep_mpc_local_planner
+
+# Build rule for target.
+deep_mpc_local_planner: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner
+.PHONY : deep_mpc_local_planner
+
+# fast build rule for target.
+deep_mpc_local_planner/fast:
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build.make deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build
+.PHONY : deep_mpc_local_planner/fast
+
+#=============================================================================
 # Target rules for targets named base_local_planner_gencfg
 
 # Build rule for target.
@@ -3427,7 +3440,7 @@ base_local_planner_gencfg: cmake_check_build_system
 
 # fast build rule for target.
 base_local_planner_gencfg/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/build.make deep_mpc/CMakeFiles/base_local_planner_gencfg.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_gencfg.dir/build
 .PHONY : base_local_planner_gencfg/fast
 
 #=============================================================================
@@ -3440,7 +3453,7 @@ base_local_planner_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 base_local_planner_generate_messages_py/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_py.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_py.dir/build
 .PHONY : base_local_planner_generate_messages_py/fast
 
 #=============================================================================
@@ -3453,7 +3466,7 @@ base_local_planner_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 base_local_planner_generate_messages_nodejs/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_nodejs.dir/build
 .PHONY : base_local_planner_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -3466,7 +3479,7 @@ base_local_planner_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 base_local_planner_generate_messages_lisp/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build
 .PHONY : base_local_planner_generate_messages_lisp/fast
 
 #=============================================================================
@@ -3479,7 +3492,7 @@ costmap_2d_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 costmap_2d_generate_messages_cpp/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir/build
 .PHONY : costmap_2d_generate_messages_cpp/fast
 
 #=============================================================================
@@ -3492,7 +3505,7 @@ costmap_2d_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 costmap_2d_generate_messages_lisp/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir/build
 .PHONY : costmap_2d_generate_messages_lisp/fast
 
 #=============================================================================
@@ -3505,7 +3518,7 @@ map_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 map_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
 .PHONY : map_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -3518,7 +3531,7 @@ costmap_2d_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 costmap_2d_generate_messages_eus/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_eus.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_eus.dir/build
 .PHONY : costmap_2d_generate_messages_eus/fast
 
 #=============================================================================
@@ -3531,7 +3544,7 @@ costmap_2d_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 costmap_2d_generate_messages_nodejs/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build
 .PHONY : costmap_2d_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -3544,7 +3557,7 @@ costmap_2d_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 costmap_2d_generate_messages_py/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/costmap_2d_generate_messages_py.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_generate_messages_py.dir/build
 .PHONY : costmap_2d_generate_messages_py/fast
 
 #=============================================================================
@@ -3557,7 +3570,7 @@ map_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 map_msgs_generate_messages_eus/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/build
 .PHONY : map_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -3570,7 +3583,7 @@ map_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 map_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
 .PHONY : map_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -3583,7 +3596,7 @@ map_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 map_msgs_generate_messages_py/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_py.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/build
 .PHONY : map_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -3596,7 +3609,7 @@ costmap_2d_gencfg: cmake_check_build_system
 
 # fast build rule for target.
 costmap_2d_gencfg/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/build.make deep_mpc/CMakeFiles/costmap_2d_gencfg.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/build.make deep_mpc_local_planner/CMakeFiles/costmap_2d_gencfg.dir/build
 .PHONY : costmap_2d_gencfg/fast
 
 #=============================================================================
@@ -3609,21 +3622,8 @@ map_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 map_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make deep_mpc/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make deep_mpc_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
 .PHONY : map_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named deep_mpc
-
-# Build rule for target.
-deep_mpc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc
-.PHONY : deep_mpc
-
-# fast build rule for target.
-deep_mpc/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/deep_mpc.dir/build.make deep_mpc/CMakeFiles/deep_mpc.dir/build
-.PHONY : deep_mpc/fast
 
 #=============================================================================
 # Target rules for targets named base_local_planner_generate_messages_cpp
@@ -3635,7 +3635,7 @@ base_local_planner_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 base_local_planner_generate_messages_cpp/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build
 .PHONY : base_local_planner_generate_messages_cpp/fast
 
 #=============================================================================
@@ -3648,7 +3648,7 @@ base_local_planner_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 base_local_planner_generate_messages_eus/fast:
-	$(MAKE) -f deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/build.make deep_mpc/CMakeFiles/base_local_planner_generate_messages_eus.dir/build
+	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/build.make deep_mpc_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/build
 .PHONY : base_local_planner_generate_messages_eus/fast
 
 #=============================================================================
@@ -4213,6 +4213,7 @@ help:
 	@echo "... nuslam_generate_messages_cpp"
 	@echo "... slam"
 	@echo "... _run_tests_nuslam_gtest_nuslam_test"
+	@echo "... deep_mpc_local_planner"
 	@echo "... base_local_planner_gencfg"
 	@echo "... base_local_planner_generate_messages_py"
 	@echo "... base_local_planner_generate_messages_nodejs"
@@ -4228,7 +4229,6 @@ help:
 	@echo "... map_msgs_generate_messages_py"
 	@echo "... costmap_2d_gencfg"
 	@echo "... map_msgs_generate_messages_nodejs"
-	@echo "... deep_mpc"
 	@echo "... base_local_planner_generate_messages_cpp"
 	@echo "... base_local_planner_generate_messages_eus"
 	@echo "... test_mpc_optim_node"
