@@ -79,7 +79,7 @@ turtle_interface_test_EXTERNAL_OBJECTS =
 
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/nuturtle_robot/turtle_interface_test: turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/test/turtle_interface_test_node.cpp.o
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/nuturtle_robot/turtle_interface_test: turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/build.make
-/home/thefakhreddin/turtlebot_gazebo/devel/lib/nuturtle_robot/turtle_interface_test: lib/libgtest.so
+/home/thefakhreddin/turtlebot_gazebo/devel/lib/nuturtle_robot/turtle_interface_test: gtest/lib/libgtest.so
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/nuturtle_robot/turtle_interface_test: /home/thefakhreddin/turtlebot_gazebo/devel/lib/libcontroller.so
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/nuturtle_robot/turtle_interface_test: /home/thefakhreddin/turtlebot_gazebo/devel/lib/librigid2d.so
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/nuturtle_robot/turtle_interface_test: /opt/ros/noetic/lib/libtf2_ros.so

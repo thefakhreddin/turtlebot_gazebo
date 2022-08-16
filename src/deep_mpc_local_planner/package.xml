@@ -66,17 +66,17 @@
   <depend>costmap_2d</depend>
   <depend>dynamic_reconfigure</depend>
   <depend>eigen</depend>
-  <depend>nav_core</depend>
   <depend>nav_msgs</depend>
   <depend>pluginlib</depend>
   <depend>tf2</depend>
   <depend>tf2_ros</depend>
 
+  <build_depend>nav_core</build_depend>
+  <exec_depend>nav_core</exec_depend>
 
 
-  <!-- The export tag contains other, unspecified, tags -->
+
   <export>
-    <!-- Other tools can request additional information be placed here -->
-
+    <nav_core plugin="${prefix}/deep_mpc_local_planner_plugin.xml" />
   </export>
 </package>

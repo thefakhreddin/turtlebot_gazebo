@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIE   -std=c++11
 
 CXX_DEFINES = -DIPOPT -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"mpc_local_planner\" -D_USE_MATH_DEFINES
 
-CXX_INCLUDES = -I/home/thefakhreddin/turtlebot_gazebo/src/mpc_local_planner/mpc_local_planner/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/noetic/include/g2o -I/usr/include/suitesparse -isystem /home/thefakhreddin/turtlebot_gazebo/src/mpc_local_planner/mpc_local_planner/BEFORE -isystem /home/thefakhreddin/turtlebot_gazebo/devel/include -isystem /usr/include/eigen3 -isystem /opt/ros/noetic/include/control_box_rst -isystem /usr/include/coin 
+CXX_INCLUDES = -I/home/thefakhreddin/turtlebot_gazebo/devel/include -I/home/thefakhreddin/turtlebot_gazebo/src/mpc_local_planner/mpc_local_planner/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/noetic/include/g2o -I/usr/include/suitesparse -isystem /usr/include/eigen3 -isystem /opt/ros/noetic/include/control_box_rst -isystem /usr/include/coin 
 

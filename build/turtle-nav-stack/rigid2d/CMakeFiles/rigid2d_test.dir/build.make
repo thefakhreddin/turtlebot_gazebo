@@ -95,8 +95,8 @@ rigid2d_test_EXTERNAL_OBJECTS =
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/rigid2d/rigid2d_test: turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_test.dir/test/test_diff_drive.cpp.o
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/rigid2d/rigid2d_test: turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_test.dir/build.make
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/rigid2d/rigid2d_test: /home/thefakhreddin/turtlebot_gazebo/devel/lib/librigid2d.so
-/home/thefakhreddin/turtlebot_gazebo/devel/lib/rigid2d/rigid2d_test: lib/libgtest_main.so
-/home/thefakhreddin/turtlebot_gazebo/devel/lib/rigid2d/rigid2d_test: lib/libgtest.so
+/home/thefakhreddin/turtlebot_gazebo/devel/lib/rigid2d/rigid2d_test: gtest/lib/libgtest_main.so
+/home/thefakhreddin/turtlebot_gazebo/devel/lib/rigid2d/rigid2d_test: gtest/lib/libgtest.so
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/rigid2d/rigid2d_test: turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/thefakhreddin/turtlebot_gazebo/devel/lib/rigid2d/rigid2d_test"
 	cd /home/thefakhreddin/turtlebot_gazebo/build/turtle-nav-stack/rigid2d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rigid2d_test.dir/link.txt --verbose=$(VERBOSE)

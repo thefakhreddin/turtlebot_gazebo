@@ -32,10 +32,6 @@ memory
 string
 -
 
-/home/thefakhreddin/turtlebot_gazebo/src/mpc_local_planner/mpc_local_planner/include/mpc_local_planner/utils/math_utils.h
-cmath
--
-
 /home/thefakhreddin/turtlebot_gazebo/src/mpc_local_planner/mpc_local_planner/include/mpc_local_planner/utils/publisher.h
 corbo-core/time_series.h
 -
@@ -56,18 +52,6 @@ ros/ros.h
 std_msgs/ColorRGBA.h
 -
 memory
--
-
-/home/thefakhreddin/turtlebot_gazebo/src/mpc_local_planner/mpc_local_planner/include/mpc_local_planner/utils/time_series_se2.h
-corbo-core/time_series.h
--
-Eigen/Core
--
-
-/home/thefakhreddin/turtlebot_gazebo/src/mpc_local_planner/mpc_local_planner/src/utils/conversion.cpp
-mpc_local_planner/utils/conversion.h
--
-tf/tf.h
 -
 
 /home/thefakhreddin/turtlebot_gazebo/src/mpc_local_planner/mpc_local_planner/src/utils/publisher.cpp
@@ -92,18 +76,6 @@ cmath
 iomanip
 -
 memory
--
-
-/home/thefakhreddin/turtlebot_gazebo/src/mpc_local_planner/mpc_local_planner/src/utils/time_series_se2.cpp
-mpc_local_planner/utils/time_series_se2.h
--
-mpc_local_planner/utils/math_utils.h
--
-corbo-core/console.h
--
-cmath
--
-iomanip
 -
 
 /opt/ros/noetic/include/angles/angles.h
@@ -1342,16 +1314,6 @@ Quaternion.h
 ros/macros.h
 -
 
-/opt/ros/noetic/include/tf/LinearMath/MinMax.h
-
-/opt/ros/noetic/include/tf/LinearMath/QuadWord.h
-Scalar.h
-/opt/ros/noetic/include/tf/LinearMath/Scalar.h
-MinMax.h
-/opt/ros/noetic/include/tf/LinearMath/MinMax.h
-altivec.h
--
-
 /opt/ros/noetic/include/tf/LinearMath/Quaternion.h
 Vector3.h
 /opt/ros/noetic/include/tf/LinearMath/Vector3.h
@@ -1360,37 +1322,9 @@ QuadWord.h
 ros/macros.h
 -
 
-/opt/ros/noetic/include/tf/LinearMath/Scalar.h
-math.h
--
-stdlib.h
--
-cstdlib
--
-cfloat
--
-float.h
--
-ppcintrinsics.h
--
-assert.h
--
-assert.h
--
-assert.h
--
-assert.h
--
-
 /opt/ros/noetic/include/tf/LinearMath/Transform.h
 Matrix3x3.h
 /opt/ros/noetic/include/tf/LinearMath/Matrix3x3.h
-
-/opt/ros/noetic/include/tf/LinearMath/Vector3.h
-Scalar.h
-/opt/ros/noetic/include/tf/LinearMath/Scalar.h
-MinMax.h
-/opt/ros/noetic/include/tf/LinearMath/MinMax.h
 
 /opt/ros/noetic/include/tf/exceptions.h
 stdexcept

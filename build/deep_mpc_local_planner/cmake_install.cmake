@@ -52,3 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deep_mpc_local_planner" TYPE FILE FILES "/home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deep_mpc_local_planner" TYPE FILE FILES "/home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/deep_mpc_local_planner_plugin.xml")
+endif()
+

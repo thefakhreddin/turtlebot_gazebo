@@ -102,8 +102,8 @@ nuslam_test_EXTERNAL_OBJECTS =
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/nuslam/nuslam_test: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/nuslam/nuslam_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/nuslam/nuslam_test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/thefakhreddin/turtlebot_gazebo/devel/lib/nuslam/nuslam_test: lib/libgtest_main.so
-/home/thefakhreddin/turtlebot_gazebo/devel/lib/nuslam/nuslam_test: lib/libgtest.so
+/home/thefakhreddin/turtlebot_gazebo/devel/lib/nuslam/nuslam_test: gtest/lib/libgtest_main.so
+/home/thefakhreddin/turtlebot_gazebo/devel/lib/nuslam/nuslam_test: gtest/lib/libgtest.so
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/nuslam/nuslam_test: turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/thefakhreddin/turtlebot_gazebo/devel/lib/nuslam/nuslam_test"
 	cd /home/thefakhreddin/turtlebot_gazebo/build/turtle-nav-stack/nuslam && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nuslam_test.dir/link.txt --verbose=$(VERBOSE)

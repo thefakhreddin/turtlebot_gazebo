@@ -21,13 +21,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/thefakhreddin/turtlebot_gazebo/devel/include"
   "/home/thefakhreddin/turtlebot_gazebo/src/mpc_local_planner/mpc_local_planner/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/noetic/include/g2o"
   "/usr/include/suitesparse"
-  "/home/thefakhreddin/turtlebot_gazebo/src/mpc_local_planner/mpc_local_planner/BEFORE"
-  "/home/thefakhreddin/turtlebot_gazebo/devel/include"
   "/usr/include/eigen3"
   "/opt/ros/noetic/include/control_box_rst"
   "/usr/include/coin"
