@@ -572,7 +572,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/OGRE/cmake/modules/FindOGRE.cmake"
   "/usr/share/OGRE/cmake/modules/FindPkgMacros.cmake"
   "/usr/share/OGRE/cmake/modules/PreprocessorUtils.cmake"
-  "/usr/share/cmake-3.16/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -656,12 +655,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/dart/cmake/dart_external-odelcpsolverTargets.cmake"
   "/usr/src/googletest/CMakeLists.txt"
   "/usr/src/googletest/googlemock/CMakeLists.txt"
-  "/usr/src/googletest/googlemock/cmake/gmock.pc.in"
-  "/usr/src/googletest/googlemock/cmake/gmock_main.pc.in"
   "/usr/src/googletest/googletest/CMakeLists.txt"
-  "/usr/src/googletest/googletest/cmake/Config.cmake.in"
-  "/usr/src/googletest/googletest/cmake/gtest.pc.in"
-  "/usr/src/googletest/googletest/cmake/gtest_main.pc.in"
   "/usr/src/googletest/googletest/cmake/internal_utils.cmake"
   )
 

@@ -10,7 +10,7 @@
 #include <nav_core/base_local_planner.h>
 #include <base_local_planner/odometry_helper_ros.h>
 #include <base_local_planner/latched_stop_rotate_controller.h>
-#include <ros/ros.h>
+// #include <ros/ros.h>
 
 namespace deep_mpc_local_planner
 {
@@ -34,7 +34,7 @@ namespace deep_mpc_local_planner
         tf2_ros::Buffer *tf_;
         costmap_2d::Costmap2DROS *costmap_ros;
         bool initialized_;
-        base_local_planner::OdometryHelperRos odom_helper_;
+        // base_local_planner::OdometryHelperRos odom_helper_;
         std::string odom_topic_;
         geometry_msgs::PoseStamped current_pose_;
         costmap_2d::Costmap2DROS *costmap_ros_;

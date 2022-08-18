@@ -115,7 +115,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
  INCLUDE_DIRS include
  LIBRARIES deep_mpc_local_planner
- CATKIN_DEPENDS roscpp rospy dynamic_reconfigure
+ CATKIN_DEPENDS roscpp rospy dynamic_reconfigure base_local_planner
 #  DEPENDS system_lib
 )
 
@@ -134,6 +134,8 @@ include_directories(
 add_library(deep_mpc_local_planner
 src/deep_mpc_planner.cpp
 )
+
+# target_link_libraries(deep_mpc_local_planner ${catkin_LIBRARIES} trajectory_planner_ros)
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
@@ -156,9 +158,6 @@ src/deep_mpc_planner.cpp
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(${PROJECT_NAME}_node
-#   ${catkin_LIBRARIES}
-# )
 
 #############
 ## Install ##

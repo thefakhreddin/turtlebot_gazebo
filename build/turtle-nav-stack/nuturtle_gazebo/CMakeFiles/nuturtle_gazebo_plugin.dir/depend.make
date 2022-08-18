@@ -321,6 +321,7 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/gazebo-11/gazebo/transport/SubscribeOptions.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/gazebo-11/gazebo/transport/Subscriber.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/gazebo-11/gazebo/transport/SubscriptionTransport.hh
+turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/gazebo-11/gazebo/transport/TaskGroup.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/gazebo-11/gazebo/transport/TopicManager.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/gazebo-11/gazebo/transport/TransportIface.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/gazebo-11/gazebo/transport/TransportTypes.hh
@@ -349,6 +350,7 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/Color.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/Cylinder.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/DiffDriveOdometry.hh
+turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/Ellipsoid.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/Export.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/Filter.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/Frustum.hh
@@ -374,6 +376,7 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/RotationSpline.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/SemanticVersion.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/SignalStats.hh
+turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/SpeedLimiter.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/Sphere.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/SphericalCoordinates.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/Spline.hh
@@ -389,8 +392,10 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/detail/Box.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/detail/Capsule.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/detail/Cylinder.hh
+turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/detail/Ellipsoid.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/detail/Export.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/detail/Sphere.hh
+turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/detail/WellOrderedVector.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/graph/Edge.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/graph/Graph.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/math6/ignition/math/graph/GraphAlgorithms.hh
@@ -400,6 +405,7 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/Factory.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/Filesystem.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/MessageTypes.hh
+turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/PointCloudPackedUtils.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/SuppressWarning.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/Utility.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/actor.pb.h
@@ -432,6 +438,7 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/cylindergeom.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/density.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/detail/Export.hh
+turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/detail/PointCloudPackedUtils.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/detail/SuppressWarning.hh
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/diagnostics.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/discovery.pb.h
@@ -495,11 +502,13 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/model.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/model_configuration.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/model_v.pb.h
+turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/navsat.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/occupancy_grid.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/odometry.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/packet.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/param.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/param_v.pb.h
+turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/performance_sensor_metrics.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/physics.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/pid.pb.h
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtle_drive_plugin.cpp.o: /usr/include/ignition/msgs5/ignition/msgs/planegeom.pb.h

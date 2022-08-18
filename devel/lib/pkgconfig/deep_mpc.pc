@@ -1,8 +1,0 @@
-prefix=/home/thefakhreddin/turtlebot_gazebo/devel
-
-Name: deep_mpc
-Description: Description of deep_mpc
-Version: 0.0.0
-Cflags: -I/home/thefakhreddin/turtlebot_gazebo/src/deep_mpc/include
-Libs: -L${prefix}/lib -ldeep_mpc
-Requires: roscpp rospy dynamic_reconfigure

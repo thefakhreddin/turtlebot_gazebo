@@ -1149,9 +1149,9 @@ vector
 -
 map
 -
-boost/function.hpp
--
 boost/bind.hpp
+-
+boost/function.hpp
 -
 boost/shared_ptr.hpp
 -
@@ -1383,9 +1383,9 @@ gazebo/util/system.hh
 -
 
 /usr/include/gazebo-11/gazebo/common/WeakBind.hh
-boost/shared_ptr.hpp
--
 boost/bind.hpp
+-
+boost/shared_ptr.hpp
 -
 
 /usr/include/gazebo-11/gazebo/common/common.hh
@@ -7537,6 +7537,8 @@ gazebo/util/system.hh
 /usr/include/gazebo-11/gazebo/transport/Connection.hh
 tbb/task.h
 -
+tbb/version.h
+-
 google/protobuf/message.h
 -
 boost/asio.hpp
@@ -7569,6 +7571,8 @@ gazebo/common/Exception.hh
 /usr/include/gazebo-11/gazebo/transport/gazebo/common/Exception.hh
 gazebo/common/WeakBind.hh
 /usr/include/gazebo-11/gazebo/transport/gazebo/common/WeakBind.hh
+gazebo/transport/TaskGroup.hh
+/usr/include/gazebo-11/gazebo/transport/gazebo/transport/TaskGroup.hh
 gazebo/util/system.hh
 /usr/include/gazebo-11/gazebo/transport/gazebo/util/system.hh
 
@@ -7587,10 +7591,12 @@ gazebo/msgs/msgs.hh
 /usr/include/gazebo-11/gazebo/transport/gazebo/msgs/msgs.hh
 gazebo/common/SingletonT.hh
 /usr/include/gazebo-11/gazebo/transport/gazebo/common/SingletonT.hh
-gazebo/transport/Publisher.hh
-/usr/include/gazebo-11/gazebo/transport/gazebo/transport/Publisher.hh
 gazebo/transport/Connection.hh
 /usr/include/gazebo-11/gazebo/transport/gazebo/transport/Connection.hh
+gazebo/transport/Publisher.hh
+/usr/include/gazebo-11/gazebo/transport/gazebo/transport/Publisher.hh
+gazebo/transport/TaskGroup.hh
+/usr/include/gazebo-11/gazebo/transport/gazebo/transport/TaskGroup.hh
 gazebo/util/system.hh
 /usr/include/gazebo-11/gazebo/transport/gazebo/util/system.hh
 
@@ -7602,6 +7608,8 @@ gazebo/util/system.hh
 
 /usr/include/gazebo-11/gazebo/transport/Node.hh
 tbb/task.h
+-
+tbb/version.h
 -
 boost/bind.hpp
 -
@@ -7615,6 +7623,8 @@ string
 -
 vector
 -
+gazebo/transport/TaskGroup.hh
+/usr/include/gazebo-11/gazebo/transport/gazebo/transport/TaskGroup.hh
 gazebo/transport/TransportTypes.hh
 /usr/include/gazebo-11/gazebo/transport/gazebo/transport/TransportTypes.hh
 gazebo/transport/TopicManager.hh
@@ -7717,6 +7727,12 @@ CallbackHelper.hh
 /usr/include/gazebo-11/gazebo/transport/CallbackHelper.hh
 gazebo/util/system.hh
 /usr/include/gazebo-11/gazebo/transport/gazebo/util/system.hh
+
+/usr/include/gazebo-11/gazebo/transport/TaskGroup.hh
+utility
+-
+tbb/tbb.h
+-
 
 /usr/include/gazebo-11/gazebo/transport/TopicManager.hh
 boost/bind.hpp
@@ -7925,6 +7941,8 @@ ignition/math/Cylinder.hh
 -
 ignition/math/DiffDriveOdometry.hh
 -
+ignition/math/Ellipsoid.hh
+-
 ignition/math/Filter.hh
 -
 ignition/math/Frustum.hh
@@ -7972,6 +7990,8 @@ ignition/math/RotationSpline.hh
 ignition/math/SemanticVersion.hh
 -
 ignition/math/SignalStats.hh
+-
+ignition/math/SpeedLimiter.hh
 -
 ignition/math/Sphere.hh
 -
@@ -8029,7 +8049,13 @@ ignition/math/MassMatrix3.hh
 -
 ignition/math/Material.hh
 -
+ignition/math/Plane.hh
+-
 ignition/math/Vector3.hh
+-
+ignition/math/detail/WellOrderedVector.hh
+/usr/include/ignition/math6/ignition/math/ignition/math/detail/WellOrderedVector.hh
+set
 -
 ignition/math/detail/Box.hh
 /usr/include/ignition/math6/ignition/math/ignition/math/detail/Box.hh
@@ -8077,6 +8103,16 @@ ignition/math/Export.hh
 -
 ignition/math/config.hh
 -
+
+/usr/include/ignition/math6/ignition/math/Ellipsoid.hh
+optional
+-
+ignition/math/MassMatrix3.hh
+/usr/include/ignition/math6/ignition/math/ignition/math/MassMatrix3.hh
+ignition/math/Material.hh
+/usr/include/ignition/math6/ignition/math/ignition/math/Material.hh
+ignition/math/detail/Ellipsoid.hh
+/usr/include/ignition/math6/ignition/math/ignition/math/detail/Ellipsoid.hh
 
 /usr/include/ignition/math6/ignition/math/Export.hh
 ignition/math/detail/Export.hh
@@ -8299,6 +8335,12 @@ ignition/math/Vector3.hh
 -
 ignition/math/config.hh
 -
+ignition/math/Line2.hh
+-
+ignition/math/Quaternion.hh
+-
+optional
+-
 
 /usr/include/ignition/math6/ignition/math/Pose3.hh
 ignition/math/Quaternion.hh
@@ -8368,6 +8410,16 @@ ignition/math/Helpers.hh
 ignition/math/config.hh
 -
 
+/usr/include/ignition/math6/ignition/math/SpeedLimiter.hh
+chrono
+-
+memory
+-
+ignition/math/config.hh
+-
+ignition/math/Helpers.hh
+/usr/include/ignition/math6/ignition/math/ignition/math/Helpers.hh
+
 /usr/include/ignition/math6/ignition/math/Sphere.hh
 ignition/math/MassMatrix3.hh
 /usr/include/ignition/math6/ignition/math/ignition/math/MassMatrix3.hh
@@ -8375,6 +8427,8 @@ ignition/math/Material.hh
 /usr/include/ignition/math6/ignition/math/ignition/math/Material.hh
 ignition/math/Quaternion.hh
 /usr/include/ignition/math6/ignition/math/ignition/math/Quaternion.hh
+ignition/math/Plane.hh
+/usr/include/ignition/math6/ignition/math/ignition/math/Plane.hh
 ignition/math/detail/Sphere.hh
 /usr/include/ignition/math6/ignition/math/ignition/math/detail/Sphere.hh
 
@@ -8447,19 +8501,25 @@ ignition/math/config.hh
 /usr/include/ignition/math6/ignition/math/Vector2.hh
 algorithm
 -
+cmath
+-
+limits
+-
 ignition/math/Helpers.hh
 -
 ignition/math/config.hh
 -
 
 /usr/include/ignition/math6/ignition/math/Vector3.hh
-iostream
--
-fstream
+algorithm
 -
 cmath
 -
-algorithm
+fstream
+-
+iostream
+-
+limits
 -
 ignition/math/Helpers.hh
 -
@@ -8481,6 +8541,10 @@ ignition/math/config.hh
 /usr/include/ignition/math6/ignition/math/Vector4.hh
 algorithm
 -
+cmath
+-
+limits
+-
 ignition/math/Matrix4.hh
 -
 ignition/math/Helpers.hh
@@ -8491,6 +8555,16 @@ ignition/math/config.hh
 /usr/include/ignition/math6/ignition/math/config.hh
 
 /usr/include/ignition/math6/ignition/math/detail/Box.hh
+ignition/math/Triangle3.hh
+/usr/include/ignition/math6/ignition/math/detail/ignition/math/Triangle3.hh
+algorithm
+-
+set
+-
+utility
+-
+vector
+-
 
 /usr/include/ignition/math6/ignition/math/detail/Capsule.hh
 limits
@@ -8504,11 +8578,25 @@ ignition/math/Inertial.hh
 
 /usr/include/ignition/math6/ignition/math/detail/Cylinder.hh
 
+/usr/include/ignition/math6/ignition/math/detail/Ellipsoid.hh
+limits
+-
+optional
+-
+ignition/math/Helpers.hh
+-
+ignition/math/Inertial.hh
+-
+
 /usr/include/ignition/math6/ignition/math/detail/Export.hh
 
 /usr/include/ignition/math6/ignition/math/detail/Sphere.hh
 ignition/math/Sphere.hh
 /usr/include/ignition/math6/ignition/math/detail/ignition/math/Sphere.hh
+
+/usr/include/ignition/math6/ignition/math/detail/WellOrderedVector.hh
+ignition/math/Vector3.hh
+-
 
 /usr/include/ignition/math6/ignition/math/graph/Edge.hh
 cstdint
@@ -8591,11 +8679,15 @@ ignition/math/Helpers.hh
 /usr/include/ignition/msgs5/ignition/msgs.hh
 ignition/msgs/config.hh
 -
+ignition/msgs/detail/PointCloudPackedUtils.hh
+-
 ignition/msgs/detail/SuppressWarning.hh
 -
 ignition/msgs/Factory.hh
 -
 ignition/msgs/Filesystem.hh
+-
+ignition/msgs/PointCloudPackedUtils.hh
 -
 ignition/msgs/SuppressWarning.hh
 -
@@ -8815,6 +8907,8 @@ ignition/msgs/model_configuration.pb.h
 -
 ignition/msgs/model_v.pb.h
 -
+ignition/msgs/navsat.pb.h
+-
 ignition/msgs/occupancy_grid.pb.h
 -
 ignition/msgs/odometry.pb.h
@@ -8824,6 +8918,8 @@ ignition/msgs/packet.pb.h
 ignition/msgs/param.pb.h
 -
 ignition/msgs/param_v.pb.h
+-
+ignition/msgs/performance_sensor_metrics.pb.h
 -
 ignition/msgs/physics.pb.h
 -
@@ -8977,6 +9073,22 @@ ignition/msgs/world_stats.pb.h
 -
 ignition/msgs/wrench.pb.h
 -
+
+/usr/include/ignition/msgs5/ignition/msgs/PointCloudPackedUtils.hh
+ignition/msgs/pointcloud_packed.pb.h
+-
+cstdarg
+-
+sstream
+-
+string
+-
+vector
+-
+ignition/msgs/config.hh
+/usr/include/ignition/msgs5/ignition/msgs/ignition/msgs/config.hh
+ignition/msgs/detail/PointCloudPackedUtils.hh
+/usr/include/ignition/msgs5/ignition/msgs/ignition/msgs/detail/PointCloudPackedUtils.hh
 
 /usr/include/ignition/msgs5/ignition/msgs/SuppressWarning.hh
 ignition/msgs/detail/SuppressWarning.hh
@@ -10073,6 +10185,16 @@ ignition/msgs/Export.hh
 -
 
 /usr/include/ignition/msgs5/ignition/msgs/detail/Export.hh
+
+/usr/include/ignition/msgs5/ignition/msgs/detail/PointCloudPackedUtils.hh
+ignition/msgs/pointcloud_packed.pb.h
+-
+iostream
+-
+string
+-
+ignition/msgs/config.hh
+/usr/include/ignition/msgs5/ignition/msgs/detail/ignition/msgs/config.hh
 
 /usr/include/ignition/msgs5/ignition/msgs/detail/SuppressWarning.hh
 
@@ -12488,6 +12610,42 @@ memory
 ignition/msgs/Export.hh
 -
 
+/usr/include/ignition/msgs5/ignition/msgs/navsat.pb.h
+string
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/io/coded_stream.h
+-
+google/protobuf/arena.h
+-
+google/protobuf/arenastring.h
+-
+google/protobuf/generated_message_table_driven.h
+-
+google/protobuf/generated_message_util.h
+-
+google/protobuf/inlined_string_field.h
+-
+google/protobuf/metadata.h
+-
+google/protobuf/message.h
+-
+google/protobuf/repeated_field.h
+-
+google/protobuf/extension_set.h
+-
+google/protobuf/unknown_field_set.h
+-
+ignition/msgs/header.pb.h
+/usr/include/ignition/msgs5/ignition/msgs/ignition/msgs/header.pb.h
+sys/sysmacros.h
+-
+memory
+-
+ignition/msgs/Export.hh
+-
+
 /usr/include/ignition/msgs5/ignition/msgs/occupancy_grid.pb.h
 string
 -
@@ -12697,6 +12855,42 @@ ignition/msgs/param.pb.h
 /usr/include/ignition/msgs5/ignition/msgs/ignition/msgs/param.pb.h
 ignition/msgs/header.pb.h
 /usr/include/ignition/msgs5/ignition/msgs/ignition/msgs/header.pb.h
+sys/sysmacros.h
+-
+memory
+-
+ignition/msgs/Export.hh
+-
+
+/usr/include/ignition/msgs5/ignition/msgs/performance_sensor_metrics.pb.h
+string
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/io/coded_stream.h
+-
+google/protobuf/arena.h
+-
+google/protobuf/arenastring.h
+-
+google/protobuf/generated_message_table_driven.h
+-
+google/protobuf/generated_message_util.h
+-
+google/protobuf/inlined_string_field.h
+-
+google/protobuf/metadata.h
+-
+google/protobuf/message.h
+-
+google/protobuf/repeated_field.h
+-
+google/protobuf/extension_set.h
+-
+google/protobuf/unknown_field_set.h
+-
+ignition/msgs/double.pb.h
+/usr/include/ignition/msgs5/ignition/msgs/ignition/msgs/double.pb.h
 sys/sysmacros.h
 -
 memory

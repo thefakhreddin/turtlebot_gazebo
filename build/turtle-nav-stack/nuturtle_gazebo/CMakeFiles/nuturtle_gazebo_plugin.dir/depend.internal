@@ -322,6 +322,7 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
  /usr/include/gazebo-11/gazebo/transport/SubscribeOptions.hh
  /usr/include/gazebo-11/gazebo/transport/Subscriber.hh
  /usr/include/gazebo-11/gazebo/transport/SubscriptionTransport.hh
+ /usr/include/gazebo-11/gazebo/transport/TaskGroup.hh
  /usr/include/gazebo-11/gazebo/transport/TopicManager.hh
  /usr/include/gazebo-11/gazebo/transport/TransportIface.hh
  /usr/include/gazebo-11/gazebo/transport/TransportTypes.hh
@@ -350,6 +351,7 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
  /usr/include/ignition/math6/ignition/math/Color.hh
  /usr/include/ignition/math6/ignition/math/Cylinder.hh
  /usr/include/ignition/math6/ignition/math/DiffDriveOdometry.hh
+ /usr/include/ignition/math6/ignition/math/Ellipsoid.hh
  /usr/include/ignition/math6/ignition/math/Export.hh
  /usr/include/ignition/math6/ignition/math/Filter.hh
  /usr/include/ignition/math6/ignition/math/Frustum.hh
@@ -375,6 +377,7 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
  /usr/include/ignition/math6/ignition/math/RotationSpline.hh
  /usr/include/ignition/math6/ignition/math/SemanticVersion.hh
  /usr/include/ignition/math6/ignition/math/SignalStats.hh
+ /usr/include/ignition/math6/ignition/math/SpeedLimiter.hh
  /usr/include/ignition/math6/ignition/math/Sphere.hh
  /usr/include/ignition/math6/ignition/math/SphericalCoordinates.hh
  /usr/include/ignition/math6/ignition/math/Spline.hh
@@ -390,8 +393,10 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
  /usr/include/ignition/math6/ignition/math/detail/Box.hh
  /usr/include/ignition/math6/ignition/math/detail/Capsule.hh
  /usr/include/ignition/math6/ignition/math/detail/Cylinder.hh
+ /usr/include/ignition/math6/ignition/math/detail/Ellipsoid.hh
  /usr/include/ignition/math6/ignition/math/detail/Export.hh
  /usr/include/ignition/math6/ignition/math/detail/Sphere.hh
+ /usr/include/ignition/math6/ignition/math/detail/WellOrderedVector.hh
  /usr/include/ignition/math6/ignition/math/graph/Edge.hh
  /usr/include/ignition/math6/ignition/math/graph/Graph.hh
  /usr/include/ignition/math6/ignition/math/graph/GraphAlgorithms.hh
@@ -401,6 +406,7 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
  /usr/include/ignition/msgs5/ignition/msgs/Factory.hh
  /usr/include/ignition/msgs5/ignition/msgs/Filesystem.hh
  /usr/include/ignition/msgs5/ignition/msgs/MessageTypes.hh
+ /usr/include/ignition/msgs5/ignition/msgs/PointCloudPackedUtils.hh
  /usr/include/ignition/msgs5/ignition/msgs/SuppressWarning.hh
  /usr/include/ignition/msgs5/ignition/msgs/Utility.hh
  /usr/include/ignition/msgs5/ignition/msgs/actor.pb.h
@@ -433,6 +439,7 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
  /usr/include/ignition/msgs5/ignition/msgs/cylindergeom.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/density.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/detail/Export.hh
+ /usr/include/ignition/msgs5/ignition/msgs/detail/PointCloudPackedUtils.hh
  /usr/include/ignition/msgs5/ignition/msgs/detail/SuppressWarning.hh
  /usr/include/ignition/msgs5/ignition/msgs/diagnostics.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/discovery.pb.h
@@ -496,11 +503,13 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/src/turtl
  /usr/include/ignition/msgs5/ignition/msgs/model.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/model_configuration.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/model_v.pb.h
+ /usr/include/ignition/msgs5/ignition/msgs/navsat.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/occupancy_grid.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/odometry.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/packet.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/param.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/param_v.pb.h
+ /usr/include/ignition/msgs5/ignition/msgs/performance_sensor_metrics.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/physics.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/pid.pb.h
  /usr/include/ignition/msgs5/ignition/msgs/planegeom.pb.h
