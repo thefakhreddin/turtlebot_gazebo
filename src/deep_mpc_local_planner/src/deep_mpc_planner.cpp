@@ -20,23 +20,16 @@ namespace deep_mpc_local_planner
     {
         if (!initialized_)
         {
-            // ros::NodeHandle private_nh("~/" + name);
-            // tf_ = tf;
-            // costmap_ros_ = costmap_ros;
-            // costmap_ros_->getRobotPose(current_pose_);
+            ros::NodeHandle private_nh("~/" + name);
+            tf_ = tf;
+            costmap_ros_ = costmap_ros;
+            costmap_ros_->getRobotPose(current_pose_);
 
-            // costmap_2d::Costmap2D *costmap = costmap_ros_->getCostmap();
+            costmap_2d::Costmap2D *costmap = costmap_ros_->getCostmap();
 
-            // planner_util_.initialize(tf, costmap, costmap_ros_->getGlobalFrameID());
+            planner_util_.initialize(tf, costmap, costmap_ros_->getGlobalFrameID());
 
-            // // todo initilaze the actual planner here
-
-            // if (private_nh.getParam("odom_topic", odom_topic_))
-            // {
-            //     odom_helper_.setOdomTopic(odom_topic_);
-            // }
-
-            // initialized_ = true;
+            initialized_ = true;
         }
     }
 
@@ -47,6 +40,8 @@ namespace deep_mpc_local_planner
             ROS_ERROR("This planner has not been initialized, please call initialize() before using this planner");
             return false;
         }
+        latchedStopRotateController_.resetLatching();
+        ROS_INFO("Got new plan");
         return true;
     }
 
@@ -57,6 +52,25 @@ namespace deep_mpc_local_planner
             ROS_ERROR("This planner has not been initialized, please call initialize() before using this planner");
             return false;
         }
+        if (!costmap_ros_->getRobotPose(current_pose_))
+        {
+            ROS_ERROR("Could not get robot pose");
+            return false;
+        }
+        std::vector<geometry_msgs::PoseStamped> transformed_plan;
+        if (!planner_util_.getLocalPlan(current_pose_, transformed_plan))
+        {
+            ROS_ERROR("Could not get local plan");
+            return false;
+        }
+
+        if (transformed_plan.empty())
+        {
+            ROS_WARN_NAMED("deep_mpc_local_planner", "Received an empty transformed plan.");
+            return false;
+        }
+        ROS_DEBUG_NAMED("deep_mpc_local_planner", "Received a transformed plan with %zu points.", transformed_plan.size());
+
         return true;
     }
 
@@ -65,6 +79,22 @@ namespace deep_mpc_local_planner
         if (!initialized_)
         {
             ROS_ERROR("This planner has not been initialized, please call initialize() before using this planner");
+            return false;
+        }
+
+        if (!costmap_ros_->getRobotPose(current_pose_))
+        {
+            ROS_ERROR("Could not get robot pose");
+            return false;
+        }
+
+        if (latchedStopRotateController_.isGoalReached(&planner_util_, odom_helper_, current_pose_))
+        {
+            ROS_INFO("Goal reached");
+            return true;
+        }
+        else
+        {
             return false;
         }
 

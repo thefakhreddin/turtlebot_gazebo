@@ -34,11 +34,12 @@ namespace deep_mpc_local_planner
         tf2_ros::Buffer *tf_;
         costmap_2d::Costmap2DROS *costmap_ros;
         bool initialized_;
-        // base_local_planner::OdometryHelperRos odom_helper_;
         std::string odom_topic_;
         geometry_msgs::PoseStamped current_pose_;
         costmap_2d::Costmap2DROS *costmap_ros_;
         base_local_planner::LocalPlannerUtil planner_util_;
+        base_local_planner::LatchedStopRotateController latchedStopRotateController_;
+        base_local_planner::OdometryHelperRos odom_helper_;
     };
 
 }

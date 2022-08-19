@@ -135,7 +135,7 @@ add_library(deep_mpc_local_planner
 src/deep_mpc_planner.cpp
 )
 
-# target_link_libraries(deep_mpc_local_planner ${catkin_LIBRARIES} trajectory_planner_ros)
+target_link_libraries(deep_mpc_local_planner ${catkin_LIBRARIES})
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
