@@ -981,7 +981,7 @@ CMakeFiles/run_tests.dir/all: turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nusl
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
@@ -1037,7 +1037,7 @@ CMakeFiles/tests.dir/all: turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
@@ -1561,7 +1561,7 @@ mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_gener
 
 # Build rule for subdir invocation for target.
 mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages.dir/rule
@@ -1612,7 +1612,7 @@ mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_gener
 mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_cpp.dir/all: mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/_mpc_local_planner_msgs_generate_messages_check_deps_OptimalControlResult.dir/all
 	$(MAKE) -f mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_cpp.dir/build.make mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_cpp.dir/build.make mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=18 "Built target mpc_local_planner_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=19 "Built target mpc_local_planner_msgs_generate_messages_cpp"
 .PHONY : mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1644,7 +1644,7 @@ mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_geneu
 
 # Build rule for subdir invocation for target.
 mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_geneus.dir/rule
@@ -1695,12 +1695,12 @@ mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_gener
 mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_eus.dir/all: mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/_mpc_local_planner_msgs_generate_messages_check_deps_OptimalControlResult.dir/all
 	$(MAKE) -f mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_eus.dir/build.make mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_eus.dir/build.make mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=19,20 "Built target mpc_local_planner_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=20 "Built target mpc_local_planner_msgs_generate_messages_eus"
 .PHONY : mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : mpc_local_planner/mpc_local_planner_msgs/CMakeFiles/mpc_local_planner_msgs_generate_messages_eus.dir/rule
@@ -1758,7 +1758,7 @@ turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages.dir/all: turtlebot3
 
 # Build rule for subdir invocation for target.
 turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages.dir/rule
@@ -1837,12 +1837,12 @@ turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/all: turtle
 turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/all: turtlebot3_msgs/CMakeFiles/_turtlebot3_msgs_generate_messages_check_deps_SensorState.dir/all
 	$(MAKE) -f turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/build.make turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/build.make turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=92,93 "Built target turtlebot3_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=93 "Built target turtlebot3_msgs_generate_messages_cpp"
 .PHONY : turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/rule
@@ -1983,7 +1983,7 @@ turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_gencpp.dir/all: turtlebot3_msgs/CMake
 
 # Build rule for subdir invocation for target.
 turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_gencpp.dir/rule
@@ -2367,7 +2367,7 @@ nuturtlebot/CMakeFiles/nuturtlebot_genpy.dir/all: nuturtlebot/CMakeFiles/nuturtl
 
 # Build rule for subdir invocation for target.
 nuturtlebot/CMakeFiles/nuturtlebot_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 nuturtlebot/CMakeFiles/nuturtlebot_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : nuturtlebot/CMakeFiles/nuturtlebot_genpy.dir/rule
@@ -2426,7 +2426,7 @@ nuturtlebot/CMakeFiles/nuturtlebot_generate_messages.dir/all: nuturtlebot/CMakeF
 
 # Build rule for subdir invocation for target.
 nuturtlebot/CMakeFiles/nuturtlebot_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 nuturtlebot/CMakeFiles/nuturtlebot_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : nuturtlebot/CMakeFiles/nuturtlebot_generate_messages.dir/rule
@@ -2722,12 +2722,12 @@ nuturtlebot/CMakeFiles/nuturtlebot_generate_messages_py.dir/all: nuturtlebot/CMa
 nuturtlebot/CMakeFiles/nuturtlebot_generate_messages_py.dir/all: nuturtlebot/CMakeFiles/_nuturtlebot_generate_messages_check_deps_SensorData.dir/all
 	$(MAKE) -f nuturtlebot/CMakeFiles/nuturtlebot_generate_messages_py.dir/build.make nuturtlebot/CMakeFiles/nuturtlebot_generate_messages_py.dir/depend
 	$(MAKE) -f nuturtlebot/CMakeFiles/nuturtlebot_generate_messages_py.dir/build.make nuturtlebot/CMakeFiles/nuturtlebot_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=45 "Built target nuturtlebot_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=45,46 "Built target nuturtlebot_generate_messages_py"
 .PHONY : nuturtlebot/CMakeFiles/nuturtlebot_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 nuturtlebot/CMakeFiles/nuturtlebot_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 nuturtlebot/CMakeFiles/nuturtlebot_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : nuturtlebot/CMakeFiles/nuturtlebot_generate_messages_py.dir/rule
@@ -2783,7 +2783,7 @@ turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d_gtest_rigid2d_test.dir/al
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d_gtest_rigid2d_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d_gtest_rigid2d_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d_gtest_rigid2d_test.dir/rule
@@ -3265,7 +3265,7 @@ turtle-nav-stack/rigid2d/CMakeFiles/fake_diff_encoders.dir/all: turtle-nav-stack
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/rigid2d/CMakeFiles/fake_diff_encoders.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/rigid2d/CMakeFiles/fake_diff_encoders.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/rigid2d/CMakeFiles/fake_diff_encoders.dir/rule
@@ -4015,12 +4015,12 @@ turtle-nav-stack/rigid2d/CMakeFiles/rigid2d.dir/all: turtle-nav-stack/rigid2d/CM
 turtle-nav-stack/rigid2d/CMakeFiles/rigid2d.dir/all: turtle-nav-stack/rigid2d/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f turtle-nav-stack/rigid2d/CMakeFiles/rigid2d.dir/build.make turtle-nav-stack/rigid2d/CMakeFiles/rigid2d.dir/depend
 	$(MAKE) -f turtle-nav-stack/rigid2d/CMakeFiles/rigid2d.dir/build.make turtle-nav-stack/rigid2d/CMakeFiles/rigid2d.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=53,54,55 "Built target rigid2d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=54,55 "Built target rigid2d"
 .PHONY : turtle-nav-stack/rigid2d/CMakeFiles/rigid2d.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/rigid2d/CMakeFiles/rigid2d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/rigid2d/CMakeFiles/rigid2d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/rigid2d/CMakeFiles/rigid2d.dir/rule
@@ -4119,12 +4119,12 @@ turtle-nav-stack/rigid2d/CMakeFiles/odometer.dir/all: turtle-nav-stack/rigid2d/C
 turtle-nav-stack/rigid2d/CMakeFiles/odometer.dir/all: turtle-nav-stack/rigid2d/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f turtle-nav-stack/rigid2d/CMakeFiles/odometer.dir/build.make turtle-nav-stack/rigid2d/CMakeFiles/odometer.dir/depend
 	$(MAKE) -f turtle-nav-stack/rigid2d/CMakeFiles/odometer.dir/build.make turtle-nav-stack/rigid2d/CMakeFiles/odometer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=46 "Built target odometer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target odometer"
 .PHONY : turtle-nav-stack/rigid2d/CMakeFiles/odometer.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/rigid2d/CMakeFiles/odometer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/rigid2d/CMakeFiles/odometer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/rigid2d/CMakeFiles/odometer.dir/rule
@@ -4151,7 +4151,7 @@ turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d.dir/all: turtle-nav-stack
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d.dir/rule
@@ -4255,7 +4255,7 @@ turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_node.dir/all: turtle-nav-stack/rigid
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_node.dir/rule
@@ -4309,7 +4309,7 @@ turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d_gtest.dir/all: turtle-nav
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/rigid2d/CMakeFiles/_run_tests_rigid2d_gtest.dir/rule
@@ -4387,7 +4387,7 @@ turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_test.dir/all: gtest/googletest/CMake
 turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_test.dir/all: turtle-nav-stack/rigid2d/CMakeFiles/rigid2d.dir/all
 	$(MAKE) -f turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_test.dir/build.make turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_test.dir/depend
 	$(MAKE) -f turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_test.dir/build.make turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=60 "Built target rigid2d_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=60,61 "Built target rigid2d_test"
 .PHONY : turtle-nav-stack/rigid2d/CMakeFiles/rigid2d_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4633,7 +4633,7 @@ turtle-nav-stack/planner/CMakeFiles/grid_planner.dir/all: turtle-nav-stack/plann
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/planner/CMakeFiles/grid_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/planner/CMakeFiles/grid_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/planner/CMakeFiles/grid_planner.dir/rule
@@ -4846,7 +4846,7 @@ turtle-nav-stack/planner/CMakeFiles/potential_field_planner.dir/all: turtle-nav-
 turtle-nav-stack/planner/CMakeFiles/potential_field_planner.dir/all: turtle-nav-stack/planner/CMakeFiles/planner.dir/all
 	$(MAKE) -f turtle-nav-stack/planner/CMakeFiles/potential_field_planner.dir/build.make turtle-nav-stack/planner/CMakeFiles/potential_field_planner.dir/depend
 	$(MAKE) -f turtle-nav-stack/planner/CMakeFiles/potential_field_planner.dir/build.make turtle-nav-stack/planner/CMakeFiles/potential_field_planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target potential_field_planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=51 "Built target potential_field_planner"
 .PHONY : turtle-nav-stack/planner/CMakeFiles/potential_field_planner.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4929,12 +4929,12 @@ turtle-nav-stack/planner/CMakeFiles/prm_planner.dir/all: turtle-nav-stack/planne
 turtle-nav-stack/planner/CMakeFiles/prm_planner.dir/all: turtle-nav-stack/planner/CMakeFiles/planner.dir/all
 	$(MAKE) -f turtle-nav-stack/planner/CMakeFiles/prm_planner.dir/build.make turtle-nav-stack/planner/CMakeFiles/prm_planner.dir/depend
 	$(MAKE) -f turtle-nav-stack/planner/CMakeFiles/prm_planner.dir/build.make turtle-nav-stack/planner/CMakeFiles/prm_planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=51 "Built target prm_planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=52 "Built target prm_planner"
 .PHONY : turtle-nav-stack/planner/CMakeFiles/prm_planner.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/planner/CMakeFiles/prm_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/planner/CMakeFiles/prm_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/planner/CMakeFiles/prm_planner.dir/rule
@@ -5011,12 +5011,12 @@ turtle-nav-stack/planner/CMakeFiles/draw_cont_map.dir/all: turtle-nav-stack/plan
 turtle-nav-stack/planner/CMakeFiles/draw_cont_map.dir/all: turtle-nav-stack/planner/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f turtle-nav-stack/planner/CMakeFiles/draw_cont_map.dir/build.make turtle-nav-stack/planner/CMakeFiles/draw_cont_map.dir/depend
 	$(MAKE) -f turtle-nav-stack/planner/CMakeFiles/draw_cont_map.dir/build.make turtle-nav-stack/planner/CMakeFiles/draw_cont_map.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=6 "Built target draw_cont_map"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=7 "Built target draw_cont_map"
 .PHONY : turtle-nav-stack/planner/CMakeFiles/draw_cont_map.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/planner/CMakeFiles/draw_cont_map.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/planner/CMakeFiles/draw_cont_map.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/planner/CMakeFiles/draw_cont_map.dir/rule
@@ -5229,7 +5229,7 @@ turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/all: turt
 turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/all: turtle-nav-stack/nuturtle_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
 	$(MAKE) -f turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/build.make turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/depend
 	$(MAKE) -f turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/build.make turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=36 "Built target nuturtle_gazebo_plugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=37 "Built target nuturtle_gazebo_plugin"
 .PHONY : turtle-nav-stack/nuturtle_gazebo/CMakeFiles/nuturtle_gazebo_plugin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5953,7 +5953,7 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/mppi_waypoints.dir/all: turtle-nav-st
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/mppi_waypoints.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/mppi_waypoints.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/mppi_waypoints.dir/rule
@@ -5980,7 +5980,7 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot_rostest_test
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot_rostest_tests_turtle_interface.test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot_rostest_tests_turtle_interface.test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot_rostest_tests_turtle_interface.test.dir/rule
@@ -6011,7 +6011,7 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages.dir/
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages.dir/rule
@@ -6062,12 +6062,12 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/all: turtle
 turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/all: turtle-nav-stack/controller/CMakeFiles/controller.dir/all
 	$(MAKE) -f turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/build.make turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/depend
 	$(MAKE) -f turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/build.make turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=68 "Built target turtle_interface_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=69 "Built target turtle_interface_test"
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface_test.dir/rule
@@ -6121,7 +6121,7 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot_rostest.dir
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot_rostest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot_rostest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot_rostest.dir/rule
@@ -6256,7 +6256,7 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_gencpp.dir/all: turtle
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_gencpp.dir/rule
@@ -6283,7 +6283,7 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot.dir/all: tur
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot.dir/rule
@@ -6359,12 +6359,12 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/_nuturtle_robot_generate_messages_che
 turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/all: turtle-nav-stack/nuturtle_robot/CMakeFiles/_nuturtle_robot_generate_messages_check_deps_start.dir/all
 	$(MAKE) -f turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/build.make turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/depend
 	$(MAKE) -f turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/build.make turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=37 "Built target nuturtle_robot_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target nuturtle_robot_generate_messages_cpp"
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/rule
@@ -6457,12 +6457,12 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface.dir/all: turtle-nav-
 turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface.dir/all: turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/all
 	$(MAKE) -f turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface.dir/build.make turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface.dir/depend
 	$(MAKE) -f turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface.dir/build.make turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=67 "Built target turtle_interface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=68 "Built target turtle_interface"
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/turtle_interface.dir/rule
@@ -6489,7 +6489,7 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot_rostest.dir/
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot_rostest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot_rostest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/run_tests_nuturtle_robot_rostest.dir/rule
@@ -6609,12 +6609,12 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/rotation.dir/all: turtle-nav-stack/nu
 turtle-nav-stack/nuturtle_robot/CMakeFiles/rotation.dir/all: turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/all
 	$(MAKE) -f turtle-nav-stack/nuturtle_robot/CMakeFiles/rotation.dir/build.make turtle-nav-stack/nuturtle_robot/CMakeFiles/rotation.dir/depend
 	$(MAKE) -f turtle-nav-stack/nuturtle_robot/CMakeFiles/rotation.dir/build.make turtle-nav-stack/nuturtle_robot/CMakeFiles/rotation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=61 "Built target rotation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target rotation"
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/rotation.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/rotation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/rotation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/rotation.dir/rule
@@ -6641,7 +6641,7 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot.dir/all: tu
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot.dir/rule
@@ -6734,12 +6734,12 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/real_waypoint.dir/all: turtle-nav-sta
 turtle-nav-stack/nuturtle_robot/CMakeFiles/real_waypoint.dir/all: turtle-nav-stack/nuturtle_robot/CMakeFiles/nuturtle_robot_generate_messages_cpp.dir/all
 	$(MAKE) -f turtle-nav-stack/nuturtle_robot/CMakeFiles/real_waypoint.dir/build.make turtle-nav-stack/nuturtle_robot/CMakeFiles/real_waypoint.dir/depend
 	$(MAKE) -f turtle-nav-stack/nuturtle_robot/CMakeFiles/real_waypoint.dir/build.make turtle-nav-stack/nuturtle_robot/CMakeFiles/real_waypoint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=52 "Built target real_waypoint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=53 "Built target real_waypoint"
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/real_waypoint.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/real_waypoint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/real_waypoint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/real_waypoint.dir/rule
@@ -6768,7 +6768,7 @@ turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot_rostest_tes
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot_rostest_tests_turtle_interface.test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot_rostest_tests_turtle_interface.test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuturtle_robot/CMakeFiles/_run_tests_nuturtle_robot_rostest_tests_turtle_interface.test.dir/rule
@@ -6913,7 +6913,7 @@ turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages.dir/all: turtle-nav-stac
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages.dir/rule
@@ -7160,12 +7160,12 @@ turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages_py.dir/all: mpc_local_pl
 turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages_py.dir/all: turtle-nav-stack/tsim/CMakeFiles/_tsim_generate_messages_check_deps_PoseError.dir/all
 	$(MAKE) -f turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages_py.dir/build.make turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages_py.dir/depend
 	$(MAKE) -f turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages_py.dir/build.make turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target tsim_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=67 "Built target tsim_generate_messages_py"
 .PHONY : turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/tsim/CMakeFiles/tsim_generate_messages_py.dir/rule
@@ -7302,7 +7302,7 @@ turtle-nav-stack/tsim/CMakeFiles/tsim_genpy.dir/all: turtle-nav-stack/tsim/CMake
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/tsim/CMakeFiles/tsim_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/tsim/CMakeFiles/tsim_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/tsim/CMakeFiles/tsim_genpy.dir/rule
@@ -7444,7 +7444,7 @@ turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtleb
 
 # Build rule for subdir invocation for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule
@@ -7565,12 +7565,12 @@ turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_no
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Feedback.dir/all
 	$(MAKE) -f turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/depend
 	$(MAKE) -f turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=84,85,86,87 "Built target turtlebot3_example_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=85,86,87 "Built target turtlebot3_example_generate_messages_nodejs"
 .PHONY : turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/rule
@@ -7624,7 +7624,7 @@ turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_gennodejs.dir/all: t
 
 # Build rule for subdir invocation for target.
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_gennodejs.dir/rule
@@ -7767,12 +7767,12 @@ turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_li
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3Feedback.dir/all
 	$(MAKE) -f turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/depend
 	$(MAKE) -f turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=81,82,83 "Built target turtlebot3_example_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=81,82,83,84 "Built target turtlebot3_example_generate_messages_lisp"
 .PHONY : turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/rule
@@ -7970,7 +7970,7 @@ turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_genlisp.dir/all: tur
 
 # Build rule for subdir invocation for target.
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_genlisp.dir/rule
@@ -8109,7 +8109,7 @@ turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: 
 turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtle-nav-stack/nuturtle_gazebo/CMakeFiles/tf_generate_messages_eus.dir/all
 	$(MAKE) -f turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/depend
 	$(MAKE) -f turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target turtlebot3_fake_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=92 "Built target turtlebot3_fake_node"
 .PHONY : turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -8359,12 +8359,12 @@ turtle-nav-stack/bmapping/CMakeFiles/turtle_mapping.dir/all: turtle-nav-stack/nu
 turtle-nav-stack/bmapping/CMakeFiles/turtle_mapping.dir/all: turtle-nav-stack/bmapping/CMakeFiles/bmapping.dir/all
 	$(MAKE) -f turtle-nav-stack/bmapping/CMakeFiles/turtle_mapping.dir/build.make turtle-nav-stack/bmapping/CMakeFiles/turtle_mapping.dir/depend
 	$(MAKE) -f turtle-nav-stack/bmapping/CMakeFiles/turtle_mapping.dir/build.make turtle-nav-stack/bmapping/CMakeFiles/turtle_mapping.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=69 "Built target turtle_mapping"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target turtle_mapping"
 .PHONY : turtle-nav-stack/bmapping/CMakeFiles/turtle_mapping.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/bmapping/CMakeFiles/turtle_mapping.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/bmapping/CMakeFiles/turtle_mapping.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/bmapping/CMakeFiles/turtle_mapping.dir/rule
@@ -8513,12 +8513,12 @@ turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_nodejs.dir/all: mpc_
 turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_nodejs.dir/all: turtle-nav-stack/nuslam/CMakeFiles/_nuslam_generate_messages_check_deps_TurtleMap.dir/all
 	$(MAKE) -f turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_nodejs.dir/build.make turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_nodejs.dir/depend
 	$(MAKE) -f turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_nodejs.dir/build.make turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target nuslam_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=34 "Built target nuslam_generate_messages_nodejs"
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_nodejs.dir/rule
@@ -8545,7 +8545,7 @@ turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam_gtest_nuslam_test.dir/all: t
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam_gtest_nuslam_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam_gtest_nuslam_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam_gtest_nuslam_test.dir/rule
@@ -8599,7 +8599,7 @@ turtle-nav-stack/nuslam/CMakeFiles/nuslam_gennodejs.dir/all: turtle-nav-stack/nu
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/nuslam_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/nuslam_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/nuslam_gennodejs.dir/rule
@@ -8622,7 +8622,7 @@ turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_py.dir/all: mpc_loca
 turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_py.dir/all: turtle-nav-stack/nuslam/CMakeFiles/_nuslam_generate_messages_check_deps_TurtleMap.dir/all
 	$(MAKE) -f turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_py.dir/build.make turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_py.dir/depend
 	$(MAKE) -f turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_py.dir/build.make turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=34 "Built target nuslam_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=35 "Built target nuslam_generate_messages_py"
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
@@ -8741,7 +8741,7 @@ turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages.dir/all: turtle-nav-
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages.dir/rule
@@ -8860,7 +8860,7 @@ turtle-nav-stack/nuslam/CMakeFiles/nuslam.dir/all: turtle-nav-stack/nuslam/CMake
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/nuslam.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/nuslam.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/nuslam.dir/rule
@@ -9008,7 +9008,7 @@ turtle-nav-stack/nuslam/CMakeFiles/analysis.dir/all: turtle-nav-stack/nuslam/CMa
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/analysis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/analysis.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/analysis.dir/rule
@@ -9124,7 +9124,7 @@ turtle-nav-stack/nuslam/CMakeFiles/draw_map.dir/all: turtle-nav-stack/nuslam/CMa
 turtle-nav-stack/nuslam/CMakeFiles/draw_map.dir/all: turtle-nav-stack/nuslam/CMakeFiles/nuslam_generate_messages_cpp.dir/all
 	$(MAKE) -f turtle-nav-stack/nuslam/CMakeFiles/draw_map.dir/build.make turtle-nav-stack/nuslam/CMakeFiles/draw_map.dir/depend
 	$(MAKE) -f turtle-nav-stack/nuslam/CMakeFiles/draw_map.dir/build.make turtle-nav-stack/nuslam/CMakeFiles/draw_map.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=7 "Built target draw_map"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num= "Built target draw_map"
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/draw_map.dir/all
 
 # Build rule for subdir invocation for target.
@@ -9250,7 +9250,7 @@ turtle-nav-stack/nuslam/CMakeFiles/landmarks.dir/all: turtle-nav-stack/nuslam/CM
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/landmarks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/landmarks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/landmarks.dir/rule
@@ -9302,12 +9302,12 @@ turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/all: turtle-nav-stack/rigid2d
 turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/all: turtle-nav-stack/nuslam/CMakeFiles/nuslam.dir/all
 	$(MAKE) -f turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/build.make turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/depend
 	$(MAKE) -f turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/build.make turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=35 "Built target nuslam_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=36 "Built target nuslam_test"
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/all
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/nuslam_test.dir/rule
@@ -9334,7 +9334,7 @@ turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam.dir/all: turtle-nav-stack/nu
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam.dir/rule
@@ -9361,7 +9361,7 @@ turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam_gtest.dir/all: turtle-nav-st
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/run_tests_nuslam_gtest.dir/rule
@@ -9388,7 +9388,7 @@ turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam_gtest.dir/all: turtle-nav-s
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam_gtest.dir/rule
@@ -9415,7 +9415,7 @@ turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam.dir/all: turtle-nav-stack/n
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam.dir/rule
@@ -9591,7 +9591,7 @@ turtle-nav-stack/nuslam/CMakeFiles/slam.dir/all: turtle-nav-stack/nuslam/CMakeFi
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/slam.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/slam.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/slam.dir/rule
@@ -9620,7 +9620,7 @@ turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam_gtest_nuslam_test.dir/all: 
 
 # Build rule for subdir invocation for target.
 turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam_gtest_nuslam_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam_gtest_nuslam_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam_gtest_nuslam_test.dir/rule
@@ -9642,12 +9642,12 @@ turtle-nav-stack/nuslam/CMakeFiles/_run_tests_nuslam_gtest_nuslam_test.dir/clean
 deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/all:
 	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build.make deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/depend
 	$(MAKE) -f deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build.make deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=5 "Built target deep_mpc_local_planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=5,6 "Built target deep_mpc_local_planner"
 .PHONY : deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/all
 
 # Build rule for subdir invocation for target.
 deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/rule
@@ -10135,7 +10135,7 @@ mpc_local_planner/mpc_local_planner/CMakeFiles/test_mpc_optim_node.dir/all: mpc_
 
 # Build rule for subdir invocation for target.
 mpc_local_planner/mpc_local_planner/CMakeFiles/test_mpc_optim_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 mpc_local_planner/mpc_local_planner/CMakeFiles/test_mpc_optim_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : mpc_local_planner/mpc_local_planner/CMakeFiles/test_mpc_optim_node.dir/rule
@@ -10157,12 +10157,12 @@ mpc_local_planner/mpc_local_planner/CMakeFiles/test_mpc_optim_node.dir/clean:
 mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner_gencfg.dir/all:
 	$(MAKE) -f mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner_gencfg.dir/build.make mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner_gencfg.dir/depend
 	$(MAKE) -f mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner_gencfg.dir/build.make mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=17 "Built target mpc_local_planner_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=17,18 "Built target mpc_local_planner_gencfg"
 .PHONY : mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
 mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner_gencfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner_gencfg.dir/rule
@@ -10569,7 +10569,7 @@ mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner.dir/all: mpc_lo
 
 # Build rule for subdir invocation for target.
 mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles 0
 .PHONY : mpc_local_planner/mpc_local_planner/CMakeFiles/mpc_local_planner.dir/rule

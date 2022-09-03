@@ -57,9 +57,22 @@ include deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/progress.ma
 # Include the compile flags for this target's objects.
 include deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/flags.make
 
+deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.o: deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/flags.make
+deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.o: /home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/src/deep_mpc_planner_ros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.o"
+	cd /home/thefakhreddin/turtlebot_gazebo/build/deep_mpc_local_planner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.o -c /home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/src/deep_mpc_planner_ros.cpp
+
+deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.i"
+	cd /home/thefakhreddin/turtlebot_gazebo/build/deep_mpc_local_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/src/deep_mpc_planner_ros.cpp > CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.i
+
+deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.s"
+	cd /home/thefakhreddin/turtlebot_gazebo/build/deep_mpc_local_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/src/deep_mpc_planner_ros.cpp -o CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.s
+
 deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner.cpp.o: deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/flags.make
 deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner.cpp.o: /home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/src/deep_mpc_planner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner.cpp.o"
 	cd /home/thefakhreddin/turtlebot_gazebo/build/deep_mpc_local_planner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner.cpp.o -c /home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/src/deep_mpc_planner.cpp
 
 deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner.cpp.i: cmake_force
@@ -72,11 +85,13 @@ deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planne
 
 # Object files for target deep_mpc_local_planner
 deep_mpc_local_planner_OBJECTS = \
+"CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.o" \
 "CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner.cpp.o"
 
 # External object files for target deep_mpc_local_planner
 deep_mpc_local_planner_EXTERNAL_OBJECTS =
 
+/home/thefakhreddin/turtlebot_gazebo/devel/lib/libdeep_mpc_local_planner.so: deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.o
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/libdeep_mpc_local_planner.so: deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner.cpp.o
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/libdeep_mpc_local_planner.so: deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build.make
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/libdeep_mpc_local_planner.so: /usr/lib/liborocos-kdl.so
@@ -119,7 +134,7 @@ deep_mpc_local_planner_EXTERNAL_OBJECTS =
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/libdeep_mpc_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/libdeep_mpc_local_planner.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /home/thefakhreddin/turtlebot_gazebo/devel/lib/libdeep_mpc_local_planner.so: deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/thefakhreddin/turtlebot_gazebo/devel/lib/libdeep_mpc_local_planner.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thefakhreddin/turtlebot_gazebo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/thefakhreddin/turtlebot_gazebo/devel/lib/libdeep_mpc_local_planner.so"
 	cd /home/thefakhreddin/turtlebot_gazebo/build/deep_mpc_local_planner && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/deep_mpc_local_planner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

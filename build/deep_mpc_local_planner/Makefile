@@ -464,6 +464,33 @@ src/deep_mpc_planner.cpp.s:
 	cd /home/thefakhreddin/turtlebot_gazebo/build && $(MAKE) -f deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build.make deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner.cpp.s
 .PHONY : src/deep_mpc_planner.cpp.s
 
+src/deep_mpc_planner_ros.o: src/deep_mpc_planner_ros.cpp.o
+
+.PHONY : src/deep_mpc_planner_ros.o
+
+# target to build an object file
+src/deep_mpc_planner_ros.cpp.o:
+	cd /home/thefakhreddin/turtlebot_gazebo/build && $(MAKE) -f deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build.make deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.o
+.PHONY : src/deep_mpc_planner_ros.cpp.o
+
+src/deep_mpc_planner_ros.i: src/deep_mpc_planner_ros.cpp.i
+
+.PHONY : src/deep_mpc_planner_ros.i
+
+# target to preprocess a source file
+src/deep_mpc_planner_ros.cpp.i:
+	cd /home/thefakhreddin/turtlebot_gazebo/build && $(MAKE) -f deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build.make deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.i
+.PHONY : src/deep_mpc_planner_ros.cpp.i
+
+src/deep_mpc_planner_ros.s: src/deep_mpc_planner_ros.cpp.s
+
+.PHONY : src/deep_mpc_planner_ros.s
+
+# target to generate assembly for a file
+src/deep_mpc_planner_ros.cpp.s:
+	cd /home/thefakhreddin/turtlebot_gazebo/build && $(MAKE) -f deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/build.make deep_mpc_local_planner/CMakeFiles/deep_mpc_local_planner.dir/src/deep_mpc_planner_ros.cpp.s
+.PHONY : src/deep_mpc_planner_ros.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -498,6 +525,9 @@ help:
 	@echo "... src/deep_mpc_planner.o"
 	@echo "... src/deep_mpc_planner.i"
 	@echo "... src/deep_mpc_planner.s"
+	@echo "... src/deep_mpc_planner_ros.o"
+	@echo "... src/deep_mpc_planner_ros.i"
+	@echo "... src/deep_mpc_planner_ros.s"
 .PHONY : help
 
 

@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 /home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/include/deep_mpc_local_planner/deep_mpc_planner.h
+base_local_planner/local_planner_util.h
+-
+
+/home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/include/deep_mpc_local_planner/deep_mpc_planner_ros.h
 boost/shared_ptr.hpp
 -
 tf2_ros/buffer.h
@@ -25,9 +29,11 @@ base_local_planner/odometry_helper_ros.h
 -
 base_local_planner/latched_stop_rotate_controller.h
 -
-
-/home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/src/deep_mpc_planner.cpp
 deep_mpc_local_planner/deep_mpc_planner.h
+-
+
+/home/thefakhreddin/turtlebot_gazebo/src/deep_mpc_local_planner/src/deep_mpc_planner_ros.cpp
+deep_mpc_local_planner/deep_mpc_planner_ros.h
 -
 pluginlib/class_list_macros.h
 -
